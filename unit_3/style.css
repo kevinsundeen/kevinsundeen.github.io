@@ -1,16 +1,20 @@
 body{
-	background: url("images/bg-hero800w.jpg");
-	background-color: #fff;
-	background-size: cover;
+	/*background: url("images/bg-hero800w.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background-color: #f2f2f2;
 	text-align: center;
 	color: #000;
-	background-repeat: no-repeat;
+	
 	}
 h1{
 	font-family: Helvetica, tahoma, san-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 36px;
+}
+h3{
+	font-family: Helvetica, tahoma, san-serif;
 }
 p{
 	font-family: Helvetica, tahoma, san-serif;
@@ -35,7 +39,8 @@ img{
 	font-style: italic;
 }
 #hero{
-
+	max-width: 600px;
+	height: auto;
 }
 hr{
 	width: 300px;
