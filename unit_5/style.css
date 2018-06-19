@@ -58,6 +58,36 @@ hr{
     height: 3px;
     background: #000;
 }
+header{
+	background-color: #ffed74;
+	border: 1px solid black;
+	padding: 20px;
+}
+nav{
+	background-color: #E8C66A;
+	border: 1px solid black;
+	padding: 20px;
+}
+aside{
+	background-color: #FFC675;
+	border: 1px solid black;
+	padding: 20px;	
+}
+article{
+	background-color: #E89C6C;
+	border: 1px solid black;
+	padding: 20px;	
+}
+footer{
+	background-color: #FF957E;
+	border: 1px solid black;
+	padding: 20px;	
+}
+div section{
+	background-color: #FFE2B8;
+	border: 1px solid black;
+	padding: 20px;
+}
 /*====================CLASSES======================*/
 .nav li{
 	font-family: 'Rubik', Helvetica, tahoma, san-serif !important;
