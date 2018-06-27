@@ -1,0 +1,167 @@
+/*====================FONT IMPORT======================*/
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Rubik');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+
+/*====================ELEMENT SELECTORS======================*/
+body{
+	/*background: url("images/bg-hero800w.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background-color: #f2f2f2;
+	color: #000;
+	}
+
+h1{
+	font-family: 'Rubik', Helvetica, tahoma, san-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 48px;
+	letter-spacing: 6px: 
+}
+h2{
+	font-family: 'Rubik', Helvetica, tahoma, san-serif;
+	font-size: 24px;
+	font-weight: 200;
+}
+h3{
+	font-family: 'Rubik', Helvetica, tahoma, san-serif;
+	font-weight: 600;
+	font-size:24px;
+}
+h4{
+	font-family: 'IBM Plex Serif', Georgia, serif;
+	font-size: 24px;
+}
+p{
+	font-family: 'IBM Plex Serif', Georgia, serif;
+	font-size: 18px;
+	line-height: 1.25em;
+}
+ul{
+	font-family: 'IBM Plex Serif', Georgia, serif;
+	font-size: 18px;
+
+}
+li{
+	font-family: 'IBM Plex Serif', Georgia, serif;
+	font-size: 18x;
+}
+img{
+
+}
+hr{
+	width: 300px;
+	border: 0;
+    height: 3px;
+    background: #000;
+}
+header{
+	padding: 20px;
+	text-align: center;
+
+}
+nav{
+	border-bottom: 4px solid black;
+	float: none;
+}
+aside{
+	background-color: #FFC675;
+	border: 1px solid black;
+	padding: 20px;	
+}
+article{
+	background-color: #E89C6C;
+	border: 1px solid black;
+	padding: 20px;	
+}
+div section{
+	
+
+	padding: 20px;
+}
+nav{
+	padding:20px;
+}
+nav a{
+	font-family: 'Rubik', Helvetica, tahoma, san-serif !important;
+	font-size: 24px !important;
+	font-style: bold !important;
+	text-decoration: none;
+	color: black;
+	float: left;
+	width: 20%;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+footer{
+	
+	border-top: 4px solid black;
+	padding: 20px;	
+	text-align: center;
+}
+footer a{
+	font-family: 'Rubik', Helvetica, tahoma, san-serif;
+	font-size: 24px;
+	font-style: bold;
+	text-decoration: none;
+	color: black;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+/*====================CLASSES======================*/
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.wrapper{
+	width: 1024px;
+	border: 1px black solid; 
+
+
+}
+/*====================IDs======================*/
+#slogan{
+	font-family: Helvetica, tahoma, san-serif;
+	font-size: 24px;
+	font-style: italic;
+}
+#hero{
+	max-width: 1024px;
+	height: auto;
+}
+#guide{
+	max-width: 400px;
+	height: auto;
+	padding-top: 20px;
+}
+
+#two{
+	padding: 20px;
+	text-align: center;
+}
+#two ul{
+	list-style: none;
+}
+#two_column{
+	padding: 20px;
+}
+#left {
+	
+	
+	padding: 20px;
+	float: left;
+	width: 45%;
+}
+#right {
+	
+	
+	padding: 20px;
+	float: right;
+	width: 45%;
+}
