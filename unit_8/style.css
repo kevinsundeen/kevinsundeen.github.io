@@ -1,0 +1,215 @@
+/*====================FONT IMPORT======================*/
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Rubik');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+
+/*====================ELEMENT SELECTORS======================*/
+* {margin:0;padding:0;box-sizing:border-box;}
+body{
+	/*background: url("images/bg-hero800w.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background-color: #f2f2f2;
+	color: #000;
+	font-family: 'IBM Plex Serif', Georgia, serif;
+	font-size: 16px;
+	line-height: 1.25;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+h1{
+	font-family: 'Rubik', Helvetica, tahoma, san-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 3em;
+	letter-spacing: 6px: 
+}
+h2{
+	font-family: 'Rubik', Helvetica, tahoma, san-serif;
+	font-size: 1.75em;
+	font-weight: 200;
+	margin-bottom: .75em;
+}
+h3{
+	font-family: 'Rubik', Helvetica, tahoma, san-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+h4{
+	font-size: 1.5em;
+}
+
+p{
+	padding-bottom: .5em;
+}
+hr{
+	width: 300px;
+	border: 0;
+    height: 3px;
+    background: #000;
+}
+header{
+	text-align: right;
+}
+nav{
+	float: none;
+}
+aside{
+	background-color: #FFC675;
+	border: 1px solid black;
+	padding: 20px;	
+}
+article{
+	background-color: #E89C6C;
+	border: 1px solid black;
+	padding: 20px;	
+}
+div section{
+		padding: 1.5em;
+}
+nav{
+	padding:20px;
+	width: 100%;
+	float: left;
+}
+nav a{
+	font-family: 'Rubik', Helvetica, tahoma, san-serif !important;
+	font-size: 1.5em;
+	font-style: bold;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 1em;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+footer{
+	border-top: 4px solid black;
+	padding: 20px;	
+	text-align: center;
+}
+footer a{
+	font-family: 'Rubik', Helvetica, tahoma, san-serif;
+	font-size: 24px;
+	font-style: bold;
+	text-decoration: none;
+	color: black;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+/*====================CLASSES======================*/
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.wrapper{
+	width: 1024px;
+	border: 1px black solid;
+	margin: auto;
+}
+/*====================IDs======================*/
+#slogan{
+	font-family: Helvetica, tahoma, san-serif;
+	font-size: 24px;
+	font-style: italic;
+}
+#hero{
+	max-width: 1024px;
+	height: auto;
+}
+#guide{
+	width: 50%;
+}
+
+#two{
+	padding: 20px;
+	text-align: center;
+}
+#two ul{
+	list-style: none;
+}
+#two_column{
+	padding: 2em 0;
+}
+#left {
+	padding: 2em;
+	float: left;
+	width: 50%;
+}
+#right {
+	padding: 20px;
+	float: right;
+	width: 45%;
+}
+#intro {
+	background:url(images/bg-hero800w.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 75vh;
+	width: 100%;
+	padding: 2em 0 0 2em;
+	color: rgba(0,0,0,.85);
+}
+
+/*====================MEDIA QUEREIES======================*/
+
+@media (max-width: 800px){
+	body{
+		font-size: 14px;
+	}
+	header{
+	text-align: left;
+	display: none;
+	}
+	nav a {
+		font-size: 1em;
+		padding: .75em;
+	}
+	/*#intro h1{
+		font-size: 1.75em;
+	}
+	#intro h2{
+		font-size: 1.2em;
+	}*/
+	#intro{
+		padding: 2em 0 0 2em;
+	}
+	#left{
+		float: none;
+		width: 100%;
+	}
+
+	#guide{
+		float: none;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	body{
+		font-size: 14px;
+		line-height: 1.25em;
+	}
+	#intro h1{
+		font-size: 2em;
+		margin-bottom: 10px;
+	}
+	#intro h2{
+		font-size: 1.3em;
+	}
+	#left h2{
+		font-size: 1.3em;
+	}
+}
+@media only screen and (max-width: 430px) {
+	nav a {
+		font-size: .75em;
+		padding: .5em;
+	}
+}
