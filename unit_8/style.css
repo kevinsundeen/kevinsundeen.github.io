@@ -10,10 +10,10 @@ body{
 	background-size: cover;*/
 	background-color: #f2f2f2;
 	color: #000;
-	font-family: 'IBM Plex Serif', Georgia, serif;
+	font-family: Helvetica, arial, san-serif;
 	font-size: 16px;
 	line-height: 1.25;
-	max-width: 1024px;
+	/*max-width: 1024px;*/
 	margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@ h1{
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 3em;
-	letter-spacing: 6px: 
+	letter-spacing: 10px; 
 }
 h2{
 	font-family: 'Rubik', Helvetica, tahoma, san-serif;
@@ -136,6 +136,8 @@ footer a:hover{
 	list-style: none;
 }
 #two_column{
+	max-width: 60em;
+	margin: 0 auto;
 	padding: 2em 0;
 }
 #left {
