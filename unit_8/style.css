@@ -156,6 +156,18 @@ footer a:hover{
 	width: 100%;
 	padding: 2em 0 0 2em;
 	color: rgba(0,0,0,.85);
+	position: relative;
+	z-index: -1;
+
+}
+#signup{
+	padding: 1em;
+	margin-right: 2em; 
+	margin-top: 1em;
+	background-color: rgba(242,242,242,.75);
+	position: relative;
+	width: 15em;
+	float: right;
 }
 
 /*====================MEDIA QUEREIES======================*/
@@ -165,8 +177,8 @@ footer a:hover{
 		font-size: 14px;
 	}
 	header{
-	text-align: left;
-	display: none;
+		text-align: left;
+		
 	}
 	nav a {
 		font-size: 1em;
@@ -190,6 +202,7 @@ footer a:hover{
 		float: none;
 		width: 100%;
 	}
+
 }
 @media only screen and (max-width: 480px) {
 	body{
@@ -205,6 +218,12 @@ footer a:hover{
 	}
 	#left h2{
 		font-size: 1.3em;
+	}
+	#signup {
+		float: left;
+	}
+	header{
+		
 	}
 }
 @media only screen and (max-width: 430px) {
